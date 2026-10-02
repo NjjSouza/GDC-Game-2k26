@@ -1,0 +1,21 @@
+# Ignore .yy files for language statistics
+*.yy linguist-generated=true
+
+# Force LF for text/metadata files for merge simplicity and consistency across OS
+*.gml text eol=lf
+*.yy text eol=lf
+*.yyp text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+
+# Binary assets - preserve as-is without CRLF conversions
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ogg binary
+*.wav binary
+*.mp3 binary
+*.ico binary
+*.cur binary
